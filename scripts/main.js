@@ -57,8 +57,6 @@ async function getMovieInfo(movie){
 async function testFunction(){
     const moviesArray = await getMovie();
     const randomMovie = getRandomMovie(moviesArray);
-    console.log(randomMovie);
-    console.log(randomMovie.original_title);
     showMovieInfo(randomMovie);
 }
 
