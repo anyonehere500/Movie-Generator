@@ -2,5 +2,23 @@
 <html>
     <head>
         <title>Random Movie Generator</title>
+        <link href="./style/style.css" rel="stylesheet">
+        <script defer src="./scripts/helpers.js"></script>
+        <script defer src="./scripts/main.js"></script>
+        
     </head>
+
+    <body>
+        <h1>🍿Film Finder🍿</h1>
+        <h3>Choose a Genre</h3>
+        <select name="genresBox" id="genresBox"></select>
+        <br>
+        <button id="goButton" name="goButton">Lets Go!</button>
+        <br>
+        <img id="posterImage" width="300" height="300">
+        <div id="movieInfoDiv">
+            <h3 id="movieTitle"></h3>
+            <p id="movieOverview"></p>
+        </div>
+    </body>
 </html>

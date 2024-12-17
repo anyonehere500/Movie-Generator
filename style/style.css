@@ -9,3 +9,8 @@ select{
 html{
     background-color: skyblue;
 }
+
+#movieTitle{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
